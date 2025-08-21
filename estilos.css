@@ -1,0 +1,107 @@
+h1 {
+  text-emphasis-color: rgb(17, 224, 93);
+}
+
+
+
+.carousel-item.active {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.contenido {
+  padding: 0 0.9rem;
+}
+
+.mi-form {
+  background-color: rgb(246, 229, 238) !important;
+  padding: 1rem 1rem;
+}
+
+.mititulo {
+  color: blueviolet;
+  text-align: center;
+}
+
+.contenedora {
+  background-color: rgb(203, 203, 231);
+  color: rgb(42, 21, 231);
+  width: 50%;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 50px;
+}
+li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 10px;
+  text-emphasis-color: rgb(109, 3, 77);
+  text-emphasis-position: over right;
+}
+
+.description {
+  text-align: center;
+}
+
+.fondos {
+  text-align: center;
+  border: 35px solid rgb(246, 229, 238);
+}
+
+.espiritusanto {
+  text-align: center;
+}
+
+.espsanto {
+  border: 80px solid #f9d4f3;
+  margin: 0 auto;
+}
+
+.frutos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.fruto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #f4d2f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background-color 0.3s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fruto:hover {
+  transform: scale(1.1);
+  background-color: #f155ec;
+  color: #000000;
+}
+
+.logo {
+  height: 90px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+
+.inicio {
+  background-color: #feebf7;
+}

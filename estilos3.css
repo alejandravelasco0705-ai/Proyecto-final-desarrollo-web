@@ -1,0 +1,34 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background-color: #fff4fe;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #f200c2;
+}
+
+h2 {
+  color: #f200c2;
+}
+
+blockquote {
+  font-style: italic;
+  color: #050004;
+  border-left: 4px solid #f403cb;
+  padding-left: 15px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.volver {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #fe08d1;
+  font-weight: bold;
+}
